@@ -1,0 +1,23 @@
+.card {
+  position: relative;
+  left: 20vw;
+  height: 60vh;
+  min-width: 60vw;
+  bottom: 5vh;
+}
+.input {
+  border-radius: 4px;
+  width: 20vw;
+}
+.airdropBtn {
+  font-size: 16px;
+  margin-left: 6px;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  background: linear-gradient(180deg, rgb(77, 2, 17), rgb(39, 144, 185) 100%);
+
+  background-origin: border-box;
+}

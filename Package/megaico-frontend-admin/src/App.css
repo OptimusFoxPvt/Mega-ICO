@@ -1,0 +1,42 @@
+
+
+/* //Custom By Ahmed  */
+.MuiOutlinedInput-notchedOutline legend {
+    display: none !important;
+}
+/* div.MuiFormControl-root{
+    min-width: 100% !important;
+    font-size: 10px !important;
+} */
+
+/* .MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-9.MuiToolbar-gutters{
+    display: none;
+} */
+
+/* .MuiToolbar-root.MuiToolbar-regular.MTableToolbar-root-9.MuiToolbar-gutters{
+width: 40%;
+} */
+@media only screen and (max-width: 600px) {
+
+.b-titlemain > h5{
+ color: #FFFFFF !important;
+ padding-left: 10px;
+}
+.nav-link {
+    color: #FFFFFF !important;
+}
+.personalData{
+    background-color: #1E375E !important;
+}
+}
+@media only screen and (min-width: 600px)and (max-width: 992px) {
+
+.b-titlemain > h5{
+ color: #FFFFFF !important;
+ padding-left: 25px;
+}
+.nav-link {
+    color: #FFFFFF !important;
+    padding-left: 20px !important;
+}
+}

@@ -1,0 +1,51 @@
+.tier-btn{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -10px);
+}
+
+.material-uiDropzone p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.material-uiDropzone{
+    height: 300px;
+    background-color: white !important;
+    
+}
+
+.material-uiDropzone img{
+    margin-top: 29px;
+}
+.cardbanner{
+        position: absolute;
+        top: 50px;
+        width: 290px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+      
+}
+@media (max-width:480px) {
+    .cardbanner{
+        position: absolute;
+        top: 50px;
+        width: 300px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+      
+}
+}
+
+
+
+    
+
+
