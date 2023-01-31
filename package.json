@@ -1,0 +1,52 @@
+{
+  "name": "mega-ico",
+  "version": "1.0.0",
+  "description": "Initial Coin Offering application to raise funds for a project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node mega-ico-backend/server.js",
+    "start":"node mega-ico-backend/server.js"
+  },
+  "author": {
+    "name": "OptimusFox",
+    "email": "info@optimusfox.com"
+  },
+  "contributors": [
+    {
+      "name": "Rosheel Baig",
+      "email":"rosheelbaig@gmail.com"
+    },
+    {
+      "name": "Uman Mushtaq",
+      "email": "umanmushtaq72@gmail.com"
+    },
+    {
+      "name": "Hadid Ahmed",
+      "email": "hadidtaseer@gmail.com"
+    },
+    {
+      "name": "Shawal Ali",
+      "email": "shawalnetwork@gmail.com"
+    },
+        {
+      "name": "Ali Wisam",
+      "email": "aliwissam73@gmail.com"
+    }
+
+  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/OptimusFoxPvt/Mega-ICO.git"
+  },
+  
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OptimusFoxPvt/Mega-ICO/issues"
+  },
+  "homepage": "https://github.com/OptimusFoxPvt/Mega-ICO#readme"
+}
