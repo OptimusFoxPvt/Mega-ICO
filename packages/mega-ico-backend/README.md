@@ -30,12 +30,10 @@ This README would normally document whatever steps are necessary to get your app
 
 ### How to run
 
-- $ npm i -g run-rs
+- \$ npm i -g run-rs
 - to run-rs with its own separate mongo installation
-- $ run-rs --version 4.0.0
+- \$ run-rs --version 4.0.0
 - to use the mongo installation you've on your system
-- $ run-rs --mongod
+- \$ run-rs --mongod
 - run-rs usually purges all old data, append --keep to skip purging
-- $ run-rs --mongod --keep
-# ICO-Platform-Backend
-# ICO-Platform-Backend
+- \$ run-rs --mongod --keep
