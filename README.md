@@ -2,7 +2,7 @@
 # Mega-ICO
 
 An ICO (Initial Coin Offering) is a fundraising mechanism in which a new cryptocurrency project sells a certain number of tokens to early adopters in exchange for investment. The funds raised are typically used to develop the project's technology and bring it to market. ICOs have become a popular way for blockchain-based projects to raise capital, as they allow investors to purchase tokens in a new project at an early stage. However, ICOs are largely unregulated, which has led to concerns about fraud and lack of investor protection. As a result, some countries have implemented regulations to govern ICOs, and investors should be cautious when considering investing in an ICO.
-## Authors
+## Developed By :
 
 - [@OPTIMUSFOX](https://www.github.com/OptimusFoxPvt)
 
