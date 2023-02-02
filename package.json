@@ -5,34 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "node mega-ico-backend/server.js",
-    "start":"node mega-ico-backend/server.js"
+    "start": "node mega-ico-backend/server.js",
+    "compile": "yarn workspace mega-ico-smart-contract compile",
+    "deploy:mainnet": "yarn workspace mega-ico-smart-contract deploy:mainnet",
+    "deploy:local": "yarn workspace mega-ico-smart-contract deploy:local"
   },
-  "author": {
-    "name": "OptimusFox",
-    "email": "info@optimusfox.com"
-  },
+  "author": "OptimusFox <info@optimusfox.com>",
   "contributors": [
-    {
-      "name": "Rosheel Baig",
-      "email":"rosheelbaig@gmail.com"
-    },
-    {
-      "name": "Uman Mushtaq",
-      "email": "umanmushtaq72@gmail.com"
-    },
-    {
-      "name": "Hadid Ahmed",
-      "email": "hadidtaseer@gmail.com"
-    },
-    {
-      "name": "Shawal Ali",
-      "email": "shawalnetwork@gmail.com"
-    },
-        {
-      "name": "Ali Wisam",
-      "email": "aliwissam73@gmail.com"
-    }
-
+    "Rosheel Baig <rosheelbaig@gmail.com>",
+    "Uman Mushtaq <umanmushtaq72@gmail.com>",
+    "Hadid Ahmed <hadidtaseer@gmail.com>",
+    "Shawal Ali <shawalnetwork@gmail.com>",
+    "Ali Wisam <aliwissam73@gmail.com>"
   ],
   "workspaces": {
     "packages": [
@@ -43,7 +27,6 @@
     "type": "git",
     "url": "git+ssh://git@github.com/OptimusFoxPvt/Mega-ICO.git"
   },
-  
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/OptimusFoxPvt/Mega-ICO/issues"
