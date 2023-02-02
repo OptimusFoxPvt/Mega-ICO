@@ -171,7 +171,7 @@ Bounty Distribution
 ```
 
 
-## ICO Smart Contract
+## Kick Starter
 
 This is a smart contract for a crowdsale of an ERC20 token on the Ethereum blockchain. It includes features such as a reentrancy guard, ownable contract, and safe math for handling uint256 values. It allows for the conversion of wei to the smallest indivisible token unit, and funds are collected in a specified wallet address. The contract also includes functionality for a pre-ICO and ICO stage, bonus tokens for pre-ICO purchases, and allocation of tokens for pre-ICO and ICO stages. It also includes an event for token purchase logging and a fallback function for direct purchases from other contracts.
 
@@ -190,34 +190,15 @@ Contract Functions of KickStater:
 ```
 
 
-## AirDrop Smart Contract
+## AirDrop 
 This is an Ownable contract for an airdrop on the Ethereum blockchain. It uses the ERC20 token standard, which defines a common set of functions that a token contract should implement. 
 The contract allows the owner to set an opening and closing time for the airdrop, and only allows users to register for the airdrop while it is open. The contract also keeps track of the total number of tokens allocated for the airdrop and the total number of tokens that have been distributed, and it prevents the airdrop from exceeding the allocated amount.
  The contract also includes a function to drop the tokens and it distributes the tokens to the registered recipients. The contract also includes several modifiers, such as 'onlyWhileOpen' and 'onlyOwner' which are used to restrict certain functions to only be callable during certain conditions and by the owner of the contract respectively.
 
-Contract Functions of AirDrop:
-```bash
- constructor(IERC20 _tokenAddr) 
- function airdropAllocation()
- function registration(address _recipient)
- function airdropTiming(uint256 openingTime, uint256 closingTime)
- function airdropOpeningTime()
- function airdropClosingTime()
- function RegisteredUsers()
- function isOpen()
- function hasClosed()
- function dropTokens(uint256 _amount)
-```
-
-## Bounty Smart Contract 
+## Bounty 
 The contract has an IERC20 token, and a private variable _bountyAllocation and _bountyUsedTokens which store the bounty token distribution and the bounty used tokens respectively. The contract has a constructor that takes an IERC20 token address as an argument and assigns it to the token variable. The contract has two public functions, bountyAllocation() which returns the bounty token distribution, and bountyReward(address recipient, uint256 amount) which allows the owner of the contract to distribute tokens as a reward to a specified recipient address, after checking that the recipient address is not the contract owner or address(0) and also checking that the total amount of tokens distributed as a reward does not exceed the allocated bounty tokens.
 
-Contract Functions of Bounty:
-```bash
- constructor(IERC20 _tokenAddr)
- function bountyAllocation()
- function bountyReward(address recipient, uint256 amount)
-```
+
 
 ## Roadmap
 
