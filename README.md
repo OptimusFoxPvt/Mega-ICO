@@ -249,29 +249,6 @@ An Initial Coin Offering (ICO) is a fundraising method in which a company issues
 
    *****Email***** : rosheel@optimusfox.com
 
-- **Ali Wisam** ( Senior Blockchain Developer )
-
-  *****Email***** : ali.wisam@optimusfox.com
-
-
-- **Hadid Ahmed** ( Assosiate Blockchain Developer )
-
-  *****Email***** : hadid.ahmad@optimusfox.com
-
-
-- **Shawal Ali** ( Frontend Developer)
-   
-   *****Email***** : shawal.ali@optimusfox.com
-
-
-
-
--  **Uman Mushtaq** ( Backend Developer )
-
-
-   *****Email***** : uman.mushtaq@optimusfox.com
-
-
 ## Support
 
 For support, email info@optimusfox.com
